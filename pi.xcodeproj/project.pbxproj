@@ -7,9 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C1E49EB1B34AB8500B37D50 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1E49EA1B34AB8500B37D50 /* ViewController.swift */; };
+		0C1E49ED1B34AD5800B37D50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C1E49EC1B34AD5800B37D50 /* Main.storyboard */; };
+		0C1E49EF1B34B28C00B37D50 /* PiCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1E49EE1B34B28C00B37D50 /* PiCalculator.swift */; };
+		0C1E49F01B34B28C00B37D50 /* PiCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1E49EE1B34B28C00B37D50 /* PiCalculator.swift */; };
 		0C41D8FF1B067C8400946E06 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C41D8FE1B067C8400946E06 /* AppDelegate.swift */; };
 		0C41D9011B067C8400946E06 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C41D9001B067C8400946E06 /* Images.xcassets */; };
-		0C41D9041B067C8400946E06 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C41D9021B067C8400946E06 /* MainMenu.xib */; };
 		0C41D91A1B067D2A00946E06 /* ArctanTaylorSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C41D9191B067D2A00946E06 /* ArctanTaylorSequence.swift */; };
 		0C41D91B1B067D2A00946E06 /* ArctanTaylorSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C41D9191B067D2A00946E06 /* ArctanTaylorSequence.swift */; };
 		0C41D91F1B0769D700946E06 /* PiMachinAlgorithmTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C41D91E1B0769D700946E06 /* PiMachinAlgorithmTest.swift */; };
@@ -33,11 +36,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C1E49EA1B34AB8500B37D50 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0C1E49EC1B34AD5800B37D50 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		0C1E49EE1B34B28C00B37D50 /* PiCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PiCalculator.swift; sourceTree = "<group>"; };
 		0C41D8F91B067C8400946E06 /* pi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C41D8FD1B067C8400946E06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C41D8FE1B067C8400946E06 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0C41D9001B067C8400946E06 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		0C41D9031B067C8400946E06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		0C41D9091B067C8400946E06 /* piTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = piTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C41D90E1B067C8400946E06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C41D9191B067D2A00946E06 /* ArctanTaylorSequence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArctanTaylorSequence.swift; sourceTree = "<group>"; };
@@ -89,12 +94,14 @@
 			isa = PBXGroup;
 			children = (
 				0C41D8FE1B067C8400946E06 /* AppDelegate.swift */,
+				0C1E49EA1B34AB8500B37D50 /* ViewController.swift */,
 				0C41D9001B067C8400946E06 /* Images.xcassets */,
-				0C41D9021B067C8400946E06 /* MainMenu.xib */,
+				0C1E49EC1B34AD5800B37D50 /* Main.storyboard */,
 				0C41D8FC1B067C8400946E06 /* Supporting Files */,
 				0C41D9241B07D77F00946E06 /* FixedPointNumber.swift */,
 				0CFB97D61B10BAA100BEE0B1 /* FixedPointNumberDecimalFormatter.swift */,
 				0C41D9191B067D2A00946E06 /* ArctanTaylorSequence.swift */,
+				0C1E49EE1B34B28C00B37D50 /* PiCalculator.swift */,
 			);
 			path = pi;
 			sourceTree = "<group>";
@@ -208,7 +215,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C41D9011B067C8400946E06 /* Images.xcassets in Resources */,
-				0C41D9041B067C8400946E06 /* MainMenu.xib in Resources */,
+				0C1E49ED1B34AD5800B37D50 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,6 +233,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C1E49EB1B34AB8500B37D50 /* ViewController.swift in Sources */,
+				0C1E49EF1B34B28C00B37D50 /* PiCalculator.swift in Sources */,
 				0C41D91A1B067D2A00946E06 /* ArctanTaylorSequence.swift in Sources */,
 				0C41D9251B07D77F00946E06 /* FixedPointNumber.swift in Sources */,
 				0C41D8FF1B067C8400946E06 /* AppDelegate.swift in Sources */,
@@ -242,6 +251,7 @@
 				0C41D9231B07D38E00946E06 /* FixedPointNumberTest.swift in Sources */,
 				0C41D9261B07D77F00946E06 /* FixedPointNumber.swift in Sources */,
 				0C41D9281B08F0A100946E06 /* ArctanTaylorFixedPointNumberSequenceTest.swift in Sources */,
+				0C1E49F01B34B28C00B37D50 /* PiCalculator.swift in Sources */,
 				0C41D91F1B0769D700946E06 /* PiMachinAlgorithmTest.swift in Sources */,
 				0CFB97D81B10BAA100BEE0B1 /* FixedPointNumberDecimalFormatter.swift in Sources */,
 			);
@@ -256,17 +266,6 @@
 			targetProxy = 0C41D90A1B067C8400946E06 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		0C41D9021B067C8400946E06 /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0C41D9031B067C8400946E06 /* Base */,
-			);
-			name = MainMenu.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		0C41D9111B067C8400946E06 /* Debug */ = {
